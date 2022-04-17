@@ -1,0 +1,47 @@
+header 
+{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navTop {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navTop .navItem {
+    display: inline-block;
+
+}
+
+.logo 
+{
+   height: 45px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heroImage {
+
+    width: 50%;  
+    height: auto; 
+}
+
+.section1 {
+    background-color: palevioletred;
+    
+
+}
+
+.content {
+    float: left;
+}
+
+#heroimage {
+    width: 100px;  
+    height: 100px;
+}
