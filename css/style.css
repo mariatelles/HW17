@@ -1,8 +1,14 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 header 
 {
-    background-color: orange;
+    background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .navTop {
@@ -11,14 +17,22 @@ header
     padding: 0px;
 }
 
-.navTop .navItem {
+.navItem {
     display: inline-block;
+    padding: 14px 16px;
 
+    
 }
 
+a {
+    color: rgba(0,0,0,0.6);
+}
 .logo 
 {
    height: 45px;
+   padding: 10px;
+   vertical-align: middle;
+   
 }
 
 a {
@@ -27,21 +41,77 @@ a {
 
 .heroImage {
 
-    width: 50%;  
+    width: 40%;  
     height: auto; 
+    text-align: center;
+
 }
 
+.image {
+    width: 80%;
+    
+
+}
 .section1 {
+    
+    background-image: linear-gradient(to right, rgb(232, 109, 234) , rgba(220, 171, 23, 0.843));
     background-color: palevioletred;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 60px 0px;
+    align-items: center;
+
+    
     
 
 }
 
 .content {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 30%;
+
+}
+
+
+h1 {
+    font-family: 'Gravitas One',display;
+    font-weight: 700;
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 1.5em;
+}
+
+.paragraph1 {
+    color: #ffffff;
+}
+
+footer {
+    position: absolute;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    color: #fff;
+    display: inline-flex;
+}
+
+#linkedinlogo {
+    height: 33px;
     float: left;
 }
 
-#heroimage {
-    width: 100px;  
-    height: 100px;
+.copyright {
+  
+}
+
+.linkedIn {
+   float: left; 
+}
+
+.line {
+    width: 150px;
+    height: 2px;
+    background-color: orange;
 }
