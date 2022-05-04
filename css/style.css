@@ -90,16 +90,19 @@ h1 {
 
 footer {
     position: absolute;
-    background: #111;
+    background: orange;
     height: auto;
     width: 100vw;
     color: #fff;
     display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #linkedinlogo {
     height: 33px;
     float: left;
+    
 }
 
 .copyright {
@@ -114,4 +117,26 @@ footer {
     width: 150px;
     height: 2px;
     background-color: orange;
+}
+
+
+
+.card {
+    background-image: white
+    background-color: palevioletred;
+    width: 100%;
+    justify-content: center;
+    padding: 60px 0px;
+    align-items: center;
+    display: flex
+    
+
+}
+
+.cardImage {
+    
+}
+
+img.cardImage {
+    height: 300px;
 }
