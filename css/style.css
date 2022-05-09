@@ -143,6 +143,69 @@ img.cardImage {
 
 
 .caseStudyTitle {
-    background-image;: background-image: linear-gradient(to right, rgb(232, 109, 234) , rgba(220, 171, 23, 0.843));
+    background-image: linear-gradient(to right, rgb(1, 103, 35) , rgba(159, 240, 147, 0.843));
+    text-align: center;
+}
 
+img.phoneImg {
+    height: 300px;
+}
+
+h1.titleSize {
+   font-size: 100px;
+}
+
+.projectDescription {
+    background-image: linear-gradient(to right, rgb(1, 103, 35) , rgba(159, 240, 147, 0.843));
+    text-align: center;
+    border-radius: 0 50px 0 0;
+    margin: 80px;
+    padding: 47px;
+}
+
+h3 {
+    color: #fff;
+}
+
+h1.research {
+    color: black;
+}
+img.interview {
+    height:300px;
+    align-content: center;
+}
+
+.line2 {
+    width: 528px;
+    height: 2px;
+    background-color: rgb(1 103 35);
+}
+
+img.affinity {
+    height: 300px;
+}
+
+img.userPersona {
+    height: 300px;
+}
+
+img.userFlow {
+    height: 400px;
+}
+
+.content {
+    margin: 3%;
+    align-content: center;
+}
+
+img.lowfid {
+    height: 300px;
+}
+img.testing 
+{
+    height: 300px;
+}
+
+img.iterations {
+    height: 300px;
 }
