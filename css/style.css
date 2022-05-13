@@ -99,6 +99,10 @@ footer {
     align-items: center;
 }
 
+p.footername {
+    color: white;
+}
+
 #linkedinlogo {
     height: 33px;
     float: left;
@@ -322,3 +326,11 @@ h2 {
     display: inline;
 }
 
+.footerName {
+    color: #000000;
+}
+
+.paragraph3 {
+    margin-bottom: 0%;
+    color: #000000;
+}

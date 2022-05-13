@@ -10,47 +10,66 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="">
-        <img class="logo" src="/HW17/img/mylogo.png" alt="my Logo">
-    </a>
 
-<nav>
-   <ul class="navTop">
-      <li class="navItem">
-           <a href="#">
-               Home
-           </a>
-     </li>
-      <li class="navItem">
-        <a href="#">
-            Projects
-        </a>
-       </li>
-       <li class="navItem">
-        <a href="#">
-            Resume
-        </a>
-      </li>
-   </ul>
-  </nav>   
-  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="/HW17/img/mylogo.png" alt="my Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="ux">
+               
+              <li><a class="dropdown-item" href="#">Arts for All</a></li>
+              <li><a class="dropdown-item" href="#">Odysseia App</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+             
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
 
 <div class="section1"> 
-    <div class="heroImage">
-        <img src="/HW17/img/heroimage.JPG" alt="hero image" class="image">
+    <div class="container">
+        <div class="row justify-content-center" >
+            <div class="col-md-4">
+                <img src="/HW17/img/heroimage.JPG" alt="hero image" class="image">
+            </div>
+            <div class="col-md-6">
+                <h1>
+                    Hello!
+                </h1>
+                <div class="line">
+                       
+                </div>
+                <p class="paragraph1">
+                   My name is Maria Eduarda Telles and I am a Ux/UI Designer with a background in graphic design and photography. I am an enthusiastic designer that seeks to contribute to team success through hard work, leadership skills, and excellent attention to detail. I am Driven by the need to solve user and business issues by making digital experiences more enjoyable and intuitive through creative design.
+                </p>   
+            </div>
+        </div>
     </div>
-     <div class="content">
-         <h1>
-             Hello!
-         </h1>
-         <div class="line">
-                
-         </div>
-         <p class="paragraph1">
-            My name is Maria Eduarda Telles and I am a Ux/UI Designer with a background in graphic design and photography. I am an enthusiastic designer that seeks to contribute to team success through hard work, leadership skills, and excellent attention to detail. I am Driven by the need to solve user and business issues by making digital experiences more enjoyable and intuitive through creative design.
-         </p>
-    </div>  
+
+
 </div>
 
 </div>
@@ -78,10 +97,10 @@
         </div>
         <div class="col-md-6">
             <div class="card">
-                <img src="/HW17/img/pf-s73-eve-sdjxet-14-mockup.png" alt="Arts For All Case Study - Case Study">
+                <img src="/HW17/img/musica app .png" alt="Musica App-Case Study">
                 <div class="cardContent">
                     <span class="cardTitle secondary">ux/ui design</span>
-                    <h3 class="title">Arts For All Website - Redesign</h3>
+                    <h3 class="title">Musica App</h3>
                     <a href="https://maria.uxzone.io/571-2/?et_fb=1&PageSpeed=off" class="cardBtn">view case study ></a>
                 </div>
             </div>
@@ -89,10 +108,10 @@
     
         <div class="col-md-6">
             <div class="card">
-                <img src="/HW17/img/pf-s73-eve-sdjxet-14-mockup.png" alt="Arts For All Case Study - Case Study">
+                <img src="/HW17/img/refletcover.png" alt="Reflet de venus">
                 <div class="cardContent">
-                    <span class="cardTitle secondary">ux/ui design</span>
-                    <h3 class="title">Arts For All Website - Redesign</h3>
+                    <span class="cardTitle secondary">graphic design</span>
+                    <h3 class="title">Reflet de Venus - Brand Identity</h3>
                     <a href="https://maria.uxzone.io/571-2/?et_fb=1&PageSpeed=off" class="cardBtn">view case study ></a>
                 </div>
             </div>
@@ -109,7 +128,7 @@
 
 <footer>
     <div class="copyright">
-    <p>
+    <p class="footerName">
 
         @2022 Maria Telles
 
@@ -120,5 +139,7 @@
 </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="./js/index.js"> </script>
 </body>
 </html>
